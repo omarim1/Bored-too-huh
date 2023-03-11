@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Want something to do?</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/20dc14675f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>You Bored?</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div id="choice-btns">
+            <button id="start">Yep!</button>
+            <button id="nope">Nope.</button>
+            </div>
+        </div>
+    <div class="container">
+        <div class="hidden" id="type-select">
+            <h1>Choose a type of activity</h1>
+        </div>
+        <div class="hidden" id="type-select-no">
+            <h1>Keep doing what you're doing then <i class="fa-regular fa-face-smile"></i> </h1>
+        </div>
+        </div>
+        <div class="container">
+        <div class="hidden" id="select-btns">
+            <button value="education" class="type-option">Educational</button>
+            <button value="recreational" class="type-option">Fun</button>
+            <button value="cooking" class="type-option">Food Related</button>
+            <button value="relaxation" class="type-option">Relaxing</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hidden" id="activity">
+            <h1><span><span></h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hidden" id="reset">
+            <button onclick="location.reload()" class="again">Again</button>
+            </div>
+        </div>
+</body>
+<script src="function.js"></script>
+</html>
